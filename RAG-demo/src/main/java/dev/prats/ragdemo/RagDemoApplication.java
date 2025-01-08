@@ -8,6 +8,7 @@ public class RagDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RagDemoApplication.class, args);
+		System.err.println("RAG demo application started .. !! ");
 	}
 
 }
