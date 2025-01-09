@@ -32,3 +32,6 @@ Docker Componse Support for Docker
       <optional>true</optional>
     </dependency>
 ```
+RAG Work flow
+![RAG Flow](RAG1.png)
+
