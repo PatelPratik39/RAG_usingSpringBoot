@@ -22,7 +22,7 @@ public class ChatController {
     @GetMapping("/")
     public String chat() {
         return chatClient.prompt()
-                .user("What are the Stocks for long term Holding Period according to analysis?")
+                .user("What are the value of Growth of American Express and Black Rock?")
                 .call()
                 .content();
     }
