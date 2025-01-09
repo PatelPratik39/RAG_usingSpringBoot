@@ -22,7 +22,7 @@ public class ChatController {
     @GetMapping("/")
     public String chat() {
         return chatClient.prompt()
-                .user("What are the value of Growth of American Express and Black Rock?")
+                .user("What are the values of Growth of American Express and Black Rock?, provide detail summery")
                 .call()
                 .content();
     }
