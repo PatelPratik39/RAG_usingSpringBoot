@@ -34,4 +34,4 @@ Docker Componse Support for Docker
 ```
 RAG Work flow
 ![RAG Flow](RAG1.png)
-
+![Vector Database view](Stored_Data_VectorDatabase.png)
